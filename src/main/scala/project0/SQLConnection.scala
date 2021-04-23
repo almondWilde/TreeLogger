@@ -4,7 +4,7 @@ import java.sql.{Connection, DriverManager, ResultSet}
 
 object SQLConnection {
     val con_str = "jdbc:postgresql://localhost:5432/postgres?user=postgres"
-    val conn = DriverManager.getConnection(con_str, "postgres", "asdf!@#4")   //getenv for environment variables file
+    val conn = DriverManager.getConnection(con_str, "postgres", "********")   //getenv for environment variables file
 
     def run(): Unit = {
         println("Initialize postgres connector...")
