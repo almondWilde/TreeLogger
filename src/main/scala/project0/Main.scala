@@ -13,13 +13,8 @@ object Main{
     //parse data from a csv
     var csv = new CSVUtil("res/trees.csv") 
 
-    //connect to a database
-    var connection = SQLConnection
-    connection.run
-
     //displays the app menu and connects to the database
     cli.menu()
-    //store data in a database (mongodb or postgres)
   
     //personal functionality
 

@@ -1,0 +1,1545 @@
+[0m2021.04.16 08:01:16 INFO  Started: Metals version 0.10.1 in workspace '/home/wk/revature/TreeLogger' for client vscode 1.55.2.[0m
+[0m2021.04.16 08:01:17 INFO  time: initialize in 0.43s[0m
+[0m2021.04.16 08:01:17 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.16 08:03:51 INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.4.9 -jar /tmp/metals4608391843665310623/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.16 08:03:51 WARN  no build target for: /home/wk/revature/TreeLogger/project/metals.sbt[0m
+[0m2021.04.16 08:03:51 WARN  no build target for: /home/wk/revature/TreeLogger/project/project/metals.sbt[0m
+[0m2021.04.16 08:03:51 INFO  skipping build import with status 'Started'[0m
+[0m2021.04.16 08:03:53 INFO  [info] Updated file /home/wk/revature/TreeLogger/project/build.properties: set sbt.version to 1.4.9[0m
+[0m2021.04.16 08:03:53 INFO  [info] welcome to sbt 1.4.9 (Private Build Java 1.8.0_282)[0m
+[0m2021.04.16 08:03:53 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.16 08:03:56 INFO  [info] loading settings for project treelogger-build-build from metals.sbt ...[0m
+[0m2021.04.16 08:03:56 INFO  [info] loading project definition from /home/wk/revature/TreeLogger/project/project[0m
+[0m2021.04.16 08:03:59 INFO  [info] loading settings for project treelogger-build from metals.sbt ...[0m
+[0m2021.04.16 08:03:59 INFO  [info] loading project definition from /home/wk/revature/TreeLogger/project[0m
+[0m2021.04.16 08:04:01 INFO  [success] Generated .bloop/treelogger-build.json[0m
+[0m2021.04.16 08:04:01 INFO  [success] Total time: 2 s, completed Apr 16, 2021 8:04:01 AM[0m
+[0m2021.04.16 08:04:03 INFO  [info] loading settings for project treelogger from build.sbt ...[0m
+[0m2021.04.16 08:04:03 INFO  [info] set current project to hello-world (in build file:/home/wk/revature/TreeLogger/)[0m
+[0m2021.04.16 08:04:06 INFO  [success] Generated .bloop/treelogger.json[0m
+[0m2021.04.16 08:04:06 INFO  [success] Generated .bloop/treelogger-test.json[0m
+[0m2021.04.16 08:04:06 INFO  [success] Total time: 2 s, completed Apr 16, 2021 8:04:06 AM[0m
+[0m2021.04.16 08:04:06 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.16 08:04:06 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+[0m2021.04.16 08:04:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4165013931914528094/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/wk/revature/TreeLogger/.bloop'...
+[0m[32m[D][0m Loading project from '/home/wk/revature/TreeLogger/.bloop/treelogger.json'
+[0m[32m[D][0m Loading project from '/home/wk/revature/TreeLogger/.bloop/treelogger-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'treelogger'
+[0m[32m[D][0m Missing analysis file for project 'treelogger-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4165013931914528094/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4165013931914528094/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.16 08:04:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/wk/.cache/metals/bsp.trace.json[0m
+[0m2021.04.16 08:04:09 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8786348559368658589/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8786348559368658589/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8786348559368658589/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.16 08:04:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/wk/.cache/metals/bsp.trace.json[0m
+[0m2021.04.16 08:04:09 INFO  time: Connected to build server in 2.86s[0m
+[0m2021.04.16 08:04:09 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.16 08:04:10 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.04.16 08:04:12 INFO  time: indexed workspace in 2.91s[0m
+[0m2021.04.16 08:08:32 INFO  skipping build import with status 'Installed'[0m
+[0m2021.04.16 08:08:37 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.16 08:08:41 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.16 08:08:41 INFO  time: compiled treelogger in 4.13s[0m
+[0m2021.04.16 08:53:56 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 08:53:56 INFO  time: compiled treelogger in 0.23s[0m
+[0m2021.04.16 08:54:06 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 08:54:08 INFO  time: compiled treelogger in 1.22s[0m
+[0m2021.04.16 08:54:36 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 08:54:36 INFO  time: compiled treelogger in 0.82s[0m
+[0m2021.04.16 08:59:13 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 08:59:14 INFO  time: compiled treelogger in 1.06s[0m
+[0m2021.04.16 08:59:57 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 08:59:57 INFO  time: compiled treelogger in 0.83s[0m
+[0m2021.04.16 09:01:12 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:01:12 INFO  time: compiled treelogger in 0.81s[0m
+[0m2021.04.16 09:12:01 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:12:01 INFO  time: compiled treelogger in 0.78s[0m
+[0m2021.04.16 09:12:27 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:12:27 INFO  time: compiled treelogger in 0.82s[0m
+[0m2021.04.16 09:12:32 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:12:32 INFO  time: compiled treelogger in 0.69s[0m
+[0m2021.04.16 09:14:56 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:14:56 INFO  time: compiled treelogger in 0.66s[0m
+[0m2021.04.16 09:15:10 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:15:10 INFO  time: compiled treelogger in 0.63s[0m
+[0m2021.04.16 09:16:05 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:16:05 INFO  time: compiled treelogger in 0.64s[0m
+[0m2021.04.16 09:18:01 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:18:01 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:01 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:01 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:01 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:01 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:01 INFO  time: compiled treelogger in 0.11s[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:10 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:12 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:13 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:14:49: stale bloop error: unclosed string literal
+                val stm = conn.prepareStatement("SELECT table_name
+                                                ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:16:29: stale bloop error: unclosed character literal (or use " for string literal "public")
+WHERE table_schema = 'public'
+                            ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:21: stale bloop error: unclosed string literal
+ORDER BY table_name;")
+                    ^[0m
+[0m2021.04.16 09:18:14 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:17:20: stale bloop error: ')' expected but ';' found.
+ORDER BY table_name;")
+                   ^[0m
+[0m2021.04.16 09:18:16 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:18:16 INFO  time: compiled treelogger in 0.71s[0m
+[0m2021.04.16 09:21:17 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:21:17 INFO  time: compiled treelogger in 0.65s[0m
+[0m2021.04.16 09:21:48 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:21:48 INFO  time: compiled treelogger in 0.7s[0m
+[0m2021.04.16 09:21:51 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:21:51 INFO  time: compiled treelogger in 0.7s[0m
+[0m2021.04.16 09:22:49 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:22:49 INFO  time: compiled treelogger in 0.67s[0m
+[0m2021.04.16 09:23:45 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:23:45 INFO  time: compiled treelogger in 0.63s[0m
+[0m2021.04.16 09:24:40 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:24:40 INFO  time: compiled treelogger in 0.65s[0m
+[0m2021.04.16 09:25:16 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:25:16 INFO  time: compiled treelogger in 0.8s[0m
+[0m2021.04.16 09:25:33 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:25:33 INFO  time: compiled treelogger in 0.6s[0m
+[0m2021.04.16 09:25:41 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:25:41 INFO  time: compiled treelogger in 0.69s[0m
+[0m2021.04.16 09:26:11 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:26:11 INFO  time: compiled treelogger in 0.67s[0m
+[0m2021.04.16 09:26:27 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:26:27 INFO  time: compiled treelogger in 0.59s[0m
+[0m2021.04.16 09:26:34 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:26:34 INFO  time: compiled treelogger in 0.59s[0m
+[0m2021.04.16 09:27:57 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:27:57 INFO  time: compiled treelogger in 0.67s[0m
+[0m2021.04.16 09:28:21 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:28:21 INFO  time: compiled treelogger in 0.58s[0m
+[0m2021.04.16 09:28:28 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:28:28 INFO  time: compiled treelogger in 0.62s[0m
+[0m2021.04.16 09:36:51 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.16 09:36:51 INFO  time: compiled treelogger in 0.59s[0m
+[0m2021.04.16 09:50:15 INFO  shutting down Metals[0m
+[0m2021.04.16 09:50:15 INFO  Shut down connection with build server.[0m
+[0m2021.04.16 09:50:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.19 11:17:31 INFO  Started: Metals version 0.10.1 in workspace '/home/wk/revature/TreeLogger' for client vscode 1.55.2.[0m
+[0m2021.04.19 11:17:32 INFO  time: initialize in 0.42s[0m
+[0m2021.04.19 11:17:32 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.04.19 11:17:32 WARN  no build target for: /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2423154881215167344/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.04.19 11:17:32 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+[0m2021.04.19 11:17:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+[0m2021.04.19 11:17:35 WARN  no build target for: /home/wk/revature/TreeLogger/src/main/scala/project0/CLI.scala[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/wk/revature/TreeLogger/.bloop'...
+[0m[32m[D][0m Loading project from '/home/wk/revature/TreeLogger/.bloop/treelogger-test.json'
+[0m[32m[D][0m Loading project from '/home/wk/revature/TreeLogger/.bloop/treelogger.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'treelogger-test', 'treelogger'
+[0m[32m[D][0m Missing analysis file for project 'treelogger-test'
+[0m[32m[D][0m Loading previous analysis for 'treelogger' from '/home/wk/revature/TreeLogger/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2423154881215167344/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2423154881215167344/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.19 11:17:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/wk/.cache/metals/bsp.trace.json[0m
+[0m2021.04.19 11:17:37 INFO  time: code lens generation in 4.25s[0m
+[0m2021.04.19 11:17:37 INFO  time: code lens generation in 1.71s[0m
+[0m2021.04.19 11:17:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8348051096815756008/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8348051096815756008/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8348051096815756008/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.19 11:17:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/wk/.cache/metals/bsp.trace.json[0m
+[0m2021.04.19 11:17:37 INFO  time: Connected to build server in 4.49s[0m
+[0m2021.04.19 11:17:37 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.19 11:17:37 INFO  time: Imported build in 0.12s[0m
+[0m2021.04.19 11:17:38 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.04.19 11:17:38 INFO  time: indexed workspace in 1.19s[0m
+Apr 19, 2021 11:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Apr 19, 2021 11:18:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+[0m2021.04.19 11:18:51 INFO  compiling treelogger (1 scala source)[0m
+Apr 19, 2021 11:18:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+[0m2021.04.19 11:18:54 INFO  time: compiled treelogger in 3.49s[0m
+[0m2021.04.19 11:18:56 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 11:18:56 INFO  time: compiled treelogger in 0.95s[0m
+Apr 19, 2021 2:08:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+Apr 19, 2021 2:09:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+[0m2021.04.19 14:09:39 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:09:39 INFO  time: compiled treelogger in 0.77s[0m
+Apr 19, 2021 2:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 466
+[0m2021.04.19 14:13:29 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:13:29 INFO  time: compiled treelogger in 0.74s[0m
+Apr 19, 2021 2:28:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 507
+Apr 19, 2021 2:28:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 513
+Apr 19, 2021 2:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 522
+Apr 19, 2021 2:29:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 578
+Apr 19, 2021 2:29:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 585
+Apr 19, 2021 2:29:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 593
+Apr 19, 2021 2:29:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 620
+Apr 19, 2021 2:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 632
+[0m2021.04.19 14:29:31 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:29:31 INFO  time: compiled treelogger in 0.69s[0m
+Apr 19, 2021 2:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 807
+[0m2021.04.19 14:30:59 INFO  compiling treelogger (1 scala source)[0m
+Apr 19, 2021 2:31:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 877
+[0m2021.04.19 14:30:59 INFO  time: compiled treelogger in 0.69s[0m
+[0m2021.04.19 14:31:01 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:31:01 INFO  time: compiled treelogger in 0.17s[0m
+Apr 19, 2021 2:31:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 884
+[0m2021.04.19 14:32:53 INFO  compiling treelogger (1 scala source)[0m
+Apr 19, 2021 2:32:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 972
+[0m2021.04.19 14:32:53 INFO  time: compiled treelogger in 0.62s[0m
+Apr 19, 2021 2:32:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 978
+Apr 19, 2021 2:33:37 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 19, 2021 2:33:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.04.19 14:33:42 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:33:42 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 14:33:42 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.04.19 14:33:42 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 14:33:42 INFO  time: compiled treelogger in 0.82s[0m
+[0m2021.04.19 14:33:42 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:33:43 INFO  time: compiled treelogger in 0.18s[0m
+[0m2021.04.19 14:35:03 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:35:03 INFO  time: compiled treelogger in 0.13s[0m
+[0m2021.04.19 14:36:34 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:36:34 INFO  time: compiled treelogger in 82ms[0m
+Apr 19, 2021 2:37:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1261
+Apr 19, 2021 2:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1267
+[0m2021.04.19 14:37:29 INFO  compiling treelogger (2 scala sources)[0m
+[0m2021.04.19 14:37:29 INFO  time: compiled treelogger in 83ms[0m
+[0m2021.04.19 14:39:15 INFO  compiling treelogger (2 scala sources)[0m
+[0m2021.04.19 14:39:15 INFO  time: compiled treelogger in 83ms[0m
+[0m2021.04.19 14:39:15 INFO  compiling treelogger (2 scala sources)[0m
+[0m2021.04.19 14:39:15 INFO  time: compiled treelogger in 33ms[0m
+[0m2021.04.19 14:42:56 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:42:56 INFO  time: compiled treelogger in 77ms[0m
+Apr 19, 2021 2:43:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1346
+Apr 19, 2021 2:43:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1352
+Apr 19, 2021 2:44:36 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Apr 19, 2021 2:44:36 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Apr 19, 2021 2:44:37 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Apr 19, 2021 2:44:37 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Apr 19, 2021 2:44:38 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Apr 19, 2021 2:44:38 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.04.19 14:49:38 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:49:38 INFO  time: compiled treelogger in 83ms[0m
+[0m2021.04.19 14:54:12 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:54:12 INFO  time: compiled treelogger in 82ms[0m
+Apr 19, 2021 2:54:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2249
+Apr 19, 2021 2:54:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2258
+[0m2021.04.19 14:55:13 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:55:13 INFO  time: compiled treelogger in 74ms[0m
+[0m2021.04.19 14:55:18 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 14:55:18 INFO  time: compiled treelogger in 75ms[0m
+Apr 19, 2021 2:55:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2324
+Apr 19, 2021 2:55:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2330
+Apr 19, 2021 2:55:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2338
+[0m2021.04.19 14:55:39 INFO  compiling treelogger (2 scala sources)[0m
+[0m2021.04.19 14:55:39 INFO  time: compiled treelogger in 75ms[0m
+Apr 19, 2021 3:18:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2582
+[0m2021.04.19 15:19:13 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:19:13 INFO  time: compiled treelogger in 98ms[0m
+Apr 19, 2021 3:19:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2617
+Apr 19, 2021 3:19:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2623
+Apr 19, 2021 3:19:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2633
+[0m2021.04.19 15:19:57 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:19:57 INFO  time: compiled treelogger in 90ms[0m
+Apr 19, 2021 3:19:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2716
+Apr 19, 2021 3:20:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2721
+[0m2021.04.19 15:31:19 WARN  no build target for: /home/wk/revature/week1/wccli/src/main/scala/wccli/CLI.scala[0m
+[0m2021.04.19 15:31:20 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Apr 19, 2021 3:31:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2798
+Apr 19, 2021 3:31:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2805
+[0m2021.04.19 15:31:32 WARN  no build target for: /home/wk/revature/week1/wccli/src/main/scala/wccli/CLI.scala[0m
+Apr 19, 2021 3:31:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2816
+[0m2021.04.19 15:31:54 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:31:54 INFO  time: compiled treelogger in 0.12s[0m
+Apr 19, 2021 3:31:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2863
+Apr 19, 2021 3:32:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2869
+Apr 19, 2021 3:32:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2875
+[0m2021.04.19 15:32:14 WARN  no build target for: /home/wk/revature/week1/wccli/src/main/scala/wccli/CLI.scala[0m
+[0m2021.04.19 15:32:14 WARN  no build target for: /home/wk/revature/week1/wccli/src/main/scala/wccli/CLI.scala[0m
+Apr 19, 2021 3:32:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2894
+Apr 19, 2021 3:32:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2900
+Apr 19, 2021 3:32:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2906
+Apr 19, 2021 3:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2925
+Apr 19, 2021 3:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2931
+[0m2021.04.19 15:32:34 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:32:34 INFO  time: compiled treelogger in 97ms[0m
+Exception in thread "pool-4-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+[0m2021.04.19 15:33:32 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:33:32 INFO  time: compiled treelogger in 84ms[0m
+Apr 19, 2021 3:33:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3103
+Apr 19, 2021 3:33:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3108
+Apr 19, 2021 3:33:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3114
+Apr 19, 2021 3:33:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3120
+Apr 19, 2021 3:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3128
+Apr 19, 2021 3:34:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3134
+Apr 19, 2021 3:34:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3140
+Apr 19, 2021 3:34:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3147
+[0m2021.04.19 15:34:46 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:34:46 INFO  time: compiled treelogger in 85ms[0m
+[0m2021.04.19 15:34:59 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:34:59 INFO  time: compiled treelogger in 89ms[0m
+Apr 19, 2021 3:35:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3240
+Apr 19, 2021 3:35:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3246
+Apr 19, 2021 3:35:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3252
+Apr 19, 2021 3:36:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 69 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 69 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 69 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 68 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 68 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 68 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 73 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 73 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 73 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 75 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 75 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 75 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 85 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 85 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 85 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 84 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 84 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 84 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 81 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 81 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 81 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 80 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 80 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 80 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 19, 2021 3:36:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 79 is not a valid line number, allowed [0..51]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///home/wk/revature/TreeLogger/src/main/scala/project0/CLI.scala in Iterator[String]RangePosition(file:///home/wk/revature/TreeLogger/src/main/scala/project0/CLI.scala, 2311, 2311, 2327)
+[0m2021.04.19 15:38:56 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:38:56 INFO  time: compiled treelogger in 0.36s[0m
+[0m2021.04.19 15:39:54 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:39:54 INFO  time: compiled treelogger in 0.21s[0m
+[0m2021.04.19 15:40:02 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:40:02 INFO  time: compiled treelogger in 0.19s[0m
+[0m2021.04.19 15:41:00 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:41:00 INFO  time: compiled treelogger in 0.18s[0m
+Apr 19, 2021 3:41:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3469
+Apr 19, 2021 3:41:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3475
+[0m2021.04.19 15:41:39 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:41:39 INFO  time: compiled treelogger in 0.21s[0m
+Apr 19, 2021 3:49:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3593
+Apr 19, 2021 3:50:13 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 19, 2021 3:50:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Apr 19, 2021 3:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3718
+Apr 19, 2021 3:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3723
+Apr 19, 2021 3:50:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3729
+Apr 19, 2021 3:50:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3752
+Apr 19, 2021 3:50:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..26]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..26]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..26]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.04.19 15:50:40 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:50:40 INFO  time: compiled treelogger in 74ms[0m
+Apr 19, 2021 3:50:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..26]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..26]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..26]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.04.19 15:50:52 INFO  compiling treelogger (4 scala sources)[0m
+[0m2021.04.19 15:50:52 INFO  time: compiled treelogger in 0.14s[0m
+Apr 19, 2021 3:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3786
+[0m2021.04.19 15:51:24 INFO  compiling treelogger (5 scala sources)[0m
+Apr 19, 2021 3:51:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3803
+[0m2021.04.19 15:51:24 INFO  time: compiled treelogger in 0.16s[0m
+[0m2021.04.19 15:51:24 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:51:24 INFO  time: compiled treelogger in 0.12s[0m
+Apr 19, 2021 3:51:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3808
+Apr 19, 2021 3:51:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3819
+Apr 19, 2021 3:51:44 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 19, 2021 3:51:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Apr 19, 2021 3:52:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3965
+Apr 19, 2021 3:52:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3971
+[0m2021.04.19 15:53:34 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:53:34 INFO  time: compiled treelogger in 0.14s[0m
+[0m2021.04.19 15:53:36 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:53:36 INFO  time: compiled treelogger in 0.13s[0m
+Apr 19, 2021 3:54:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4093
+[0m2021.04.19 15:55:21 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:55:21 INFO  time: compiled treelogger in 0.13s[0m
+[0m2021.04.19 15:55:46 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:55:46 INFO  time: compiled treelogger in 0.15s[0m
+Apr 19, 2021 3:55:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4160
+Apr 19, 2021 3:55:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4167
+Apr 19, 2021 3:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4173
+[0m2021.04.19 15:56:07 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:56:07 INFO  time: compiled treelogger in 0.12s[0m
+[0m2021.04.19 15:56:30 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:56:30 INFO  time: compiled treelogger in 0.12s[0m
+[0m2021.04.19 15:56:32 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:56:32 INFO  time: compiled treelogger in 0.12s[0m
+[0m2021.04.19 15:56:41 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:56:41 INFO  time: compiled treelogger in 0.14s[0m
+Apr 19, 2021 3:56:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4322
+Apr 19, 2021 3:56:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4336
+Apr 19, 2021 3:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4342
+Apr 19, 2021 3:57:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4350
+Apr 19, 2021 3:57:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4357
+[0m2021.04.19 15:57:24 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:57:24 INFO  time: compiled treelogger in 0.14s[0m
+Apr 19, 2021 3:57:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4420
+Apr 19, 2021 3:57:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4425
+Apr 19, 2021 3:57:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4435
+[0m2021.04.19 15:57:45 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:57:45 INFO  time: compiled treelogger in 0.11s[0m
+[0m2021.04.19 15:57:50 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:57:50 INFO  time: compiled treelogger in 0.11s[0m
+Apr 19, 2021 3:58:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4570
+Apr 19, 2021 3:58:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4576
+[0m2021.04.19 15:59:13 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:59:13 INFO  time: compiled treelogger in 54ms[0m
+[0m2021.04.19 15:59:35 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 15:59:35 INFO  time: compiled treelogger in 52ms[0m
+Apr 19, 2021 3:59:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4655
+Apr 19, 2021 4:00:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4662
+[0m2021.04.19 16:01:10 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 16:01:10 INFO  time: compiled treelogger in 0.11s[0m
+Apr 19, 2021 4:01:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4763
+[0m2021.04.19 16:01:29 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 16:01:29 INFO  time: compiled treelogger in 0.15s[0m
+[0m2021.04.19 16:01:50 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 16:01:51 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.04.19 16:01:51 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:01:51 WARN  4 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:01:51 INFO  time: compiled treelogger in 1.1s[0m
+[0m2021.04.19 16:02:13 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:02:13 INFO  time: compiled treelogger in 83ms[0m
+[0m2021.04.19 16:02:22 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:02:22 INFO  time: compiled treelogger in 82ms[0m
+[0m2021.04.19 16:02:29 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:02:29 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:02:29 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:02:29 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:02:29 INFO  time: compiled treelogger in 0.73s[0m
+[0m2021.04.19 16:02:44 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:02:44 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:02:44 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:02:44 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:02:44 INFO  time: compiled treelogger in 0.67s[0m
+[0m2021.04.19 16:02:55 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:02:55 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:02:55 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:02:55 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:02:55 INFO  time: compiled treelogger in 0.72s[0m
+Apr 19, 2021 4:03:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4971
+Apr 19, 2021 4:03:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4978
+[0m2021.04.19 16:07:53 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:07:53 INFO  time: compiled treelogger in 78ms[0m
+[0m2021.04.19 16:08:00 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:08:00 INFO  time: compiled treelogger in 76ms[0m
+[0m2021.04.19 16:08:10 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:08:10 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:08:10 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:08:10 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:08:10 INFO  time: compiled treelogger in 0.68s[0m
+[0m2021.04.19 16:08:15 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:08:15 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:08:15 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:08:15 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:08:15 INFO  time: compiled treelogger in 0.68s[0m
+[0m2021.04.19 16:12:59 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:12:59 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:12:59 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:12:59 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:12:59 INFO  time: compiled treelogger in 0.66s[0m
+Apr 19, 2021 4:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5263
+Apr 19, 2021 4:13:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5268
+Apr 19, 2021 4:14:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5307
+[0m2021.04.19 16:14:50 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:14:50 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:14:50 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:14:50 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:14:50 INFO  time: compiled treelogger in 0.91s[0m
+[0m2021.04.19 16:16:01 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:16:01 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:16:01 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:16:01 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:16:01 INFO  time: compiled treelogger in 0.66s[0m
+Apr 19, 2021 4:20:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5592
+Apr 19, 2021 4:20:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5600
+Apr 19, 2021 4:21:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:389)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:468)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+[0m2021.04.19 16:21:16 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:21:16 INFO  time: compiled treelogger in 73ms[0m
+[0m2021.04.19 16:21:22 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:21:22 INFO  time: compiled treelogger in 75ms[0m
+Apr 19, 2021 4:21:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5703
+Apr 19, 2021 4:21:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5709
+[0m2021.04.19 16:21:30 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:21:30 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 16:21:30 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 16:21:30 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 16:21:30 INFO  time: compiled treelogger in 0.67s[0m
+Apr 19, 2021 4:21:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5732
+Apr 19, 2021 4:21:49 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 19, 2021 4:21:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Apr 19, 2021 4:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6023
+Apr 19, 2021 4:24:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6050
+Apr 19, 2021 4:25:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6061
+Apr 19, 2021 4:25:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6067
+Apr 19, 2021 4:25:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6073
+Apr 19, 2021 4:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6079
+Apr 19, 2021 4:25:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6085
+Apr 19, 2021 4:25:47 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 19, 2021 4:25:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:96)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+Apr 19, 2021 4:25:47 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 19, 2021 4:25:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:96)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+Apr 19, 2021 4:25:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6102
+Apr 19, 2021 4:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6108
+Apr 19, 2021 4:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6114
+Apr 19, 2021 4:26:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6123
+Apr 19, 2021 4:26:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6128
+Apr 19, 2021 4:26:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6136
+Apr 19, 2021 4:26:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6141
+Apr 19, 2021 4:26:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6186
+[0m2021.04.19 16:26:56 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 16:26:56 INFO  time: compiled treelogger in 59ms[0m
+Apr 19, 2021 4:26:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6202
+Apr 19, 2021 4:27:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6207
+[0m2021.04.19 16:27:23 INFO  compiling treelogger (2 scala sources)[0m
+[0m2021.04.19 16:27:23 INFO  time: compiled treelogger in 52ms[0m
+Apr 19, 2021 4:27:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6241
+[0m2021.04.19 16:27:33 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 16:27:33 INFO  time: compiled treelogger in 56ms[0m
+[0m2021.04.19 16:27:46 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 16:27:46 INFO  time: compiled treelogger in 53ms[0m
+[0m2021.04.19 16:28:24 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 16:28:24 INFO  time: compiled treelogger in 53ms[0m
+[0m2021.04.19 19:10:05 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 19:10:07 INFO  time: compiled treelogger in 1.11s[0m
+Apr 19, 2021 7:10:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6438
+[0m2021.04.19 19:10:33 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 19:10:33 INFO  time: compiled treelogger in 0.52s[0m
+Apr 19, 2021 7:10:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6478
+Apr 19, 2021 7:10:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6487
+Apr 19, 2021 7:10:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6493
+Apr 19, 2021 7:10:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6512
+Apr 19, 2021 7:11:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6518
+Apr 19, 2021 7:11:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6526
+[0m2021.04.19 19:11:26 INFO  compiling treelogger (5 scala sources)[0m
+[0m2021.04.19 19:11:29 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.04.19 19:11:29 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 19:11:29 WARN  4 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 19:11:29 INFO  time: compiled treelogger in 2.44s[0m
+Apr 19, 2021 7:13:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.19 20:26:24 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 20:26:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 20:26:26 INFO  time: compiled treelogger in 1.56s[0m
+[0m2021.04.19 20:27:11 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 20:27:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 20:27:13 INFO  time: compiled treelogger in 1.38s[0m
+[0m2021.04.19 20:27:59 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 20:28:00 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 20:28:00 INFO  time: compiled treelogger in 1.44s[0m
+[0m2021.04.19 20:28:02 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 20:28:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 20:28:02 INFO  time: compiled treelogger in 0.98s[0m
+Apr 19, 2021 8:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6718
+Apr 19, 2021 8:28:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6730
+Apr 19, 2021 8:28:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6736
+[0m2021.04.19 20:28:32 INFO  compiling treelogger (1 scala source)[0m
+Apr 19, 2021 8:28:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6742
+[0m2021.04.19 20:28:32 INFO  time: compiled treelogger in 0.58s[0m
+[0m2021.04.19 20:36:24 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 20:36:24 INFO  time: compiled treelogger in 0.11s[0m
+[0m2021.04.19 20:36:47 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:38:13: stale bloop error: not found: value data
+            data = line.split(' ')
+            ^^^^[0m
+[0m2021.04.19 20:36:47 INFO  /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala:38:13: stale bloop error: not found: value data
+            data = line.split(' ')
+            ^^^^[0m
+[0m2021.04.19 20:36:50 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 20:36:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 20:36:50 INFO  time: compiled treelogger in 0.82s[0m
+Apr 19, 2021 8:37:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7020
+Apr 19, 2021 8:38:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7030
+Apr 19, 2021 8:38:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7036
+Apr 19, 2021 8:40:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7055
+[0m2021.04.19 21:25:22 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:25:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:25:23 INFO  time: compiled treelogger in 1.15s[0m
+Apr 19, 2021 9:26:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.19 21:26:45 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:26:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:26:46 INFO  time: compiled treelogger in 1.12s[0m
+[0m2021.04.19 21:26:59 INFO  time: code lens generation in 5.08s[0m
+Apr 19, 2021 9:27:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7141
+[0m2021.04.19 21:28:15 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:28:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:28:15 INFO  time: compiled treelogger in 0.89s[0m
+[0m2021.04.19 21:29:25 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:29:25 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:29:25 INFO  time: compiled treelogger in 0.85s[0m
+Apr 19, 2021 9:30:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7224
+Apr 19, 2021 9:31:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7238
+[0m2021.04.19 21:36:14 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:36:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:36:16 INFO  time: compiled treelogger in 1.65s[0m
+[0m2021.04.19 21:36:47 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:36:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:36:47 INFO  time: compiled treelogger in 0.71s[0m
+[0m2021.04.19 21:37:11 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:37:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:37:11 INFO  time: compiled treelogger in 0.69s[0m
+Apr 19, 2021 9:37:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7298
+[0m2021.04.19 21:37:45 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:37:45 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.04.19 21:37:45 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.19 21:37:45 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.19 21:37:45 INFO  time: compiled treelogger in 0.77s[0m
+Apr 19, 2021 9:38:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7318
+[0m2021.04.19 21:45:26 INFO  compiling treelogger (1 scala source)[0m
+[0m2021.04.19 21:45:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.19 21:45:26 INFO  time: compiled treelogger in 0.78s[0m
+[0m2021.04.19 23:04:15 INFO  shutting down Metals[0m
+[0m2021.04.19 23:04:15 INFO  Shut down connection with build server.[0m
+[0m2021.04.19 23:04:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.22 11:12:33 INFO  Started: Metals version 0.10.1 in workspace '/home/wk/revature/TreeLogger' for client vscode 1.55.2.[0m
+[0m2021.04.22 11:12:33 INFO  time: initialize in 0.49s[0m
+[0m2021.04.22 11:12:34 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.04.22 11:12:33 WARN  no build target for: /home/wk/revature/TreeLogger/src/main/scala/project0/SQLConnection.scala[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1177992953239621003/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.04.22 11:12:33 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+[0m2021.04.22 11:12:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/wk/revature/TreeLogger/.bloop'...
+[0m[32m[D][0m Loading project from '/home/wk/revature/TreeLogger/.bloop/treelogger.json'
+[0m[32m[D][0m Loading project from '/home/wk/revature/TreeLogger/.bloop/treelogger-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /home/wk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'treelogger-test', 'treelogger'
+[0m[32m[D][0m Missing analysis file for project 'treelogger-test'
+[0m[32m[D][0m Loading previous analysis for 'treelogger' from '/home/wk/revature/TreeLogger/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1177992953239621003/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1177992953239621003/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.22 11:12:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/wk/.cache/metals/bsp.trace.json[0m
+[0m2021.04.22 11:12:39 INFO  time: code lens generation in 4.61s[0m
+[0m2021.04.22 11:12:38 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3451234109352368978/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3451234109352368978/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3451234109352368978/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.22 11:12:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/wk/.cache/metals/bsp.trace.json[0m
+[0m2021.04.22 11:12:39 INFO  time: Connected to build server in 5.16s[0m
+[0m2021.04.22 11:12:39 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.22 11:12:39 INFO  time: Imported build in 0.16s[0m
+[0m2021.04.22 11:12:40 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.04.22 11:12:40 INFO  time: indexed workspace in 1.42s[0m
+[0m2021.04.22 11:12:46 INFO  time: code lens generation in 2.33s[0m

@@ -1,0 +1,4 @@
+[debug] [treelogger] Classpath dependencies List()
+[debug] [treelogger] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'treelogger' to '/home/wk/revature/TreeLogger/.bloop/treelogger.json'
+[success] Generated .bloop/treelogger.json
